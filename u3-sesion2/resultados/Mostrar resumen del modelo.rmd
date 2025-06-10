@@ -1,0 +1,4 @@
+a 8-9-1 network with 91 weights
+inputs: Pregnancies Glucose BloodPressure SkinThickness Insulin BMI DiabetesPedigreeFunction Age 
+output(s): Outcome 
+options were - decay=0.01

@@ -1,0 +1,25 @@
+# weights:  91
+initial  value 180.748755 
+iter  10 value 110.325827
+iter  20 value 97.281110
+iter  30 value 87.824918
+iter  40 value 83.016130
+iter  50 value 81.370181
+iter  60 value 80.852299
+iter  70 value 80.578735
+iter  80 value 80.465335
+iter  90 value 80.387912
+iter 100 value 80.316571
+iter 110 value 80.200044
+iter 120 value 80.135624
+iter 130 value 79.963339
+iter 140 value 79.799641
+iter 150 value 79.707884
+iter 160 value 79.666409
+iter 170 value 79.593640
+iter 180 value 79.503064
+iter 190 value 79.465855
+iter 200 value 79.460427
+iter 210 value 79.460089
+final  value 79.460083 
+converged

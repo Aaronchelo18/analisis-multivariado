@@ -13,7 +13,7 @@ diabetes$Age = scale(diabetes$Age)
 
 #Entrenamiento del modelo:
 modelo = nnet(Outcome ~ Pregnancies + Glucose + BloodPressure + SkinThickness + Insulin + BMI + DiabetesPedigreeFunction + Age, 
-              data = diabetes, size = 9, maxit = 500, decay = 0.01, linout = FALSE)
+              data = diabetes, size = 9, maxit = 500, decay = 0.01, linout = FALSE) 
 
 #Mostrar resumen del modelo:
 print(modelo)
@@ -22,11 +22,9 @@ print(modelo)
 predicciones = predict(modelo, diabetes, type = "raw")
 print(predicciones)
 
-#Redondear predicciones para clasificar (0 o 1):
-pred_binarias = ifelse(predicciones > 0.5, 1, 0)
-
 #Crear tabla de confusión:
-tabla = table(Predicho = pred_binarias, Real = diabetes$Outcome)
+tabla = table(Predicho = predicciones, Real =
+                diabetes$Outcome)
 print(tabla)
 
 #Calcular precisión:
